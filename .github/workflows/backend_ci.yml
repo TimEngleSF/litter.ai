@@ -24,7 +24,7 @@ jobs:
         working-directory: backend
 
       - name: Run tests
-        run: npm run tests
+        run: npm run test
         working-directory: backend
 
       - name: Check formatting
